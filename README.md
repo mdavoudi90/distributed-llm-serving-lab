@@ -67,3 +67,7 @@ See [experiment template](docs/experiment-template.md) for a reproducible write-
 ## Contributing
 
 Keep experiments small and reproducible. Include setup, validation, and limitations with changes. Publish only public models and workloads. Please open an issue describing the experiment before a large integration.
+
+## Architecture guide
+
+[Where inference latency comes from](docs/inference-latency-guide.md) explains Dynamo, Grove, and Model Streamer with Mermaid diagrams and maps them to network, queueing, computation, and startup delays.
